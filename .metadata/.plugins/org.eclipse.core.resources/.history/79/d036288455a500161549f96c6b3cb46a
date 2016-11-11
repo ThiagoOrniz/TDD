@@ -1,0 +1,8 @@
+
+public class PilhaVaziaException extends Runtime {
+
+	public PilhaVaziaException(String msg){
+		super(msg);
+
+	}
+}

@@ -1,0 +1,31 @@
+
+public class Pilha {
+	private Object[] elementos;
+	private int quantidade = 0;
+	
+	public boolean estaVazia() {
+		return (elementos == null);
+	}
+
+	public int tamanho() {
+
+		return quantidade;
+	}
+
+	public void empilha(Object elemento) {
+		
+		this.elementos[quantidade] =elemento;
+		this.quantidade++;
+	}
+
+	public Object topo() {
+		return elementos;
+	}
+
+	public Object desempilha() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

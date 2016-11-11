@@ -1,0 +1,7 @@
+
+public class PilhaCheiaException extends RuntimeException{
+
+	public PilhaVaziaException(String msg){
+		super(msg);
+	}
+}

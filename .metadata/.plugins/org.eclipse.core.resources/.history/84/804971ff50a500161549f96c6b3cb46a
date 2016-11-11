@@ -1,0 +1,14 @@
+
+public class Pilha {
+
+	public boolean estaVazia() {
+		return true;
+	}
+
+	public Object tamanho() {
+
+		return null;
+	}
+	
+
+}

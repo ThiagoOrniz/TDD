@@ -1,0 +1,7 @@
+
+public class PilhaVaziaException extends Runtime {
+
+	public PilhaVaziaException(){
+		
+	}
+}
