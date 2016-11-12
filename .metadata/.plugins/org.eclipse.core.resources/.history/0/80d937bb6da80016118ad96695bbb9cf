@@ -1,0 +1,24 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class TesteTradutor {
+	Tradutor t;
+	@Before
+	public void inicializarTradutor(){
+		t = new Tradutor();
+	}
+	@Test
+	public void semPalavras() {
+		assertTrue(t.estaVazio());
+	}
+	
+	@Test
+	public void umaTraducao(){
+		t.adicionarTraducao("bom","good");
+		assertFalse(t.estaVazio());
+		assertEquals("good",t.traduzir("bom"));		
+	}
+
+}

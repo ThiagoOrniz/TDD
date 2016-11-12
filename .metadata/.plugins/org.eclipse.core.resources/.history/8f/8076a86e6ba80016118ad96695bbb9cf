@@ -1,0 +1,19 @@
+
+public class Tradutor {
+
+	public boolean estaVazio() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	public void adicionarPalavra(String string, String string2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object traduzir(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
