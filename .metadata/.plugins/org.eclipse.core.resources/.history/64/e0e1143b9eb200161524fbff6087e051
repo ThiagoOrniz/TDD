@@ -1,0 +1,13 @@
+
+public class MockObservadorCarrinho implements ObservadorCarrinho {
+	
+	public void produtoAdicionado(String nome, int valor){
+		
+	}
+
+	public void verificaRecebimentoProduto(String string, int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

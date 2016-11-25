@@ -1,0 +1,8 @@
+
+public class MockObservadorCarrinho implements ObservadorCarrinho {
+	
+	public void produtoAdicionado(String nome, int valor){
+		
+	}
+
+}

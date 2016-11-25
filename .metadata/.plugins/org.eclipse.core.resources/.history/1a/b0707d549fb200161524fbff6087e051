@@ -1,0 +1,28 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TesteCarrinhoCompras {
+
+	@Test
+	public void totalCarrinho(){
+		CarrinhoCompras c = new CarrinhoCompras();
+		c.adicionaProduto(new Produto("camisa", 60));
+		c.adicionaProduto(new Produto("tenis", 130));
+		c.adicionaProduto(new Produto("bermuda", 70));
+		
+		assertEquals(260, c.total());
+	}
+	
+	@Test
+	public void escutaAdicaoDeProduto(){
+		CarrinhoCompras c = new CarrinhoCompras();
+		MockObservadorCarrinho mock = new MockObservadorCarrinho();
+		c.adicionarObservador(mock);
+		c.adicionaProduto(new Produto("tenis", 130));
+		mock.verificaRecebimentoProduto("tenis",130);
+		
+
+	}
+
+}

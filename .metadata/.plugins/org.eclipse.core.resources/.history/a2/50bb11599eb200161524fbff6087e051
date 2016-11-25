@@ -1,0 +1,18 @@
+
+public class MockObservadorCarrinho implements ObservadorCarrinho {
+	
+	private String nomeRecebido;
+	private int valorRecebido;
+	
+	public void produtoAdicionado(String nome, int valor){
+		nomeRecebido = nome;
+		valorRecebido = valor;
+		
+	}
+
+	public void verificaRecebimentoProduto(String string, int i) {
+
+		
+	}
+
+}
